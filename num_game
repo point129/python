@@ -15,4 +15,4 @@ while attempts < max_attempts:
       print("Down!")
       print(f"remaining chance: {max_attempts - attempts}")
 if attempts == max_attempts and guess != secret_number:
-   print(f"Game Over! The correct number was {cecret_number}.")
+   print(f"Game Over! The correct number was {secret_number}.")
